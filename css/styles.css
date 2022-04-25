@@ -3,16 +3,51 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
+/* Navbar proberties */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
 .navbar-nav {
-            margin-left: auto;
-        }
+  margin-left: auto;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(45deg);
+}
+
 .container-fluid{
   padding: 5% 13%;
 }
 
 #title {
   background-color: #ff4c68;
+  color: #fff;
 }
+
 
 h1
 {
