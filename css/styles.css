@@ -1,6 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 
 /* Navbar proberties */
@@ -37,15 +38,18 @@ body {
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+  z-index: 0;
+  right: 30%;
 }
 
-.container-fluid{
-  padding: 5% 13%;
+#title .container-fluid{
+  padding: 3% 7%;
 }
 
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 
 
@@ -60,6 +64,7 @@ h1
 /* Features Section */
 #features{
   padding: 7% 15%;
+
 }
 .feature-card{
   text-align: center;
@@ -119,4 +124,16 @@ h2{
 .press-image{
   width: 15%;
   margin: 2rem;
+}
+
+/* Pricing Section */
+
+
+#pricing{
+  text-align: center;
+   padding: 6rem;
+}
+
+.pricing-card{
+  padding: 3% 2%;
 }
