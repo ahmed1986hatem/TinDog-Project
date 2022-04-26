@@ -8,22 +8,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
 }
 
-h2{
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3{
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
 p{
   color: #8f8f8f;
 }
-
-
-
 
 /* Navbar proberties */
 
@@ -49,28 +36,27 @@ p{
 }
 
 /* Title Image */
-.section-heading{
+.big-heading{
   font-size: 4.5rem;
   font-weight: bold;
   line-height: 1.5;
+  text-align: left;
 }
 
 .title-image{
-  width: 60%;
+  width: 25%;
   transform: rotate(25deg);
-  position: relative;
-
-
+  position: absolute;
+  right: 20%;
 }
 
-#title .container-fluid{
+.container-fluid{
   padding: 3% 7%;
 }
 
 #title {
   background-color: #ff4c68;
   color: #fff;
-  text-align: left;
 }
 
 
@@ -82,12 +68,10 @@ p{
 /* Features Section */
 #features{
   padding: 7% 15%;
-  z-index: 1;
-
-
+  background-color: #fff;
+  position: relative;
 }
 .feature-card{
-  text-align: center;
   /* margin: 2%; */
   padding: 1%;
 }
@@ -100,7 +84,9 @@ p{
 .feature-icon:hover{
   color:#ff4c68;
 }
-
+.feature-title{
+  font-size: 3rem;
+}
 
 
 
@@ -112,13 +98,12 @@ p{
 
 
 #testimonials{
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
 .carousel-item{
-  padding: 7% 15%;
+  padding: 5% 15%;
 }
 
 .testimonial-image{
@@ -134,7 +119,6 @@ p{
 
 #press{
   padding-bottom: 3%;
-  text-align: center;
   background-color: #ef8172;
 }
 
@@ -147,7 +131,6 @@ p{
 
 
 #pricing{
-  text-align: center;
    padding: 6rem;
 }
 
@@ -160,17 +143,22 @@ p{
   line-height: 1.5;
 }
 
+.card-title{
+  font-size: 2.5rem;
+}
+
+.price-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
 /* Call To Action */
 
 #cta{
   background-color: #ff4c68;
-  text-align: center;
   padding: 7% 15%;
 }
 
-#cta h3{
-  font-family: "Montserrat-Black";
-  font-weight: bold;
+.cta-heading{
   font-size: 2.5rem;
   color: #fff;
   padding: 5% 10%;
@@ -183,7 +171,6 @@ p{
 
 #Footer{
   background-color: #fff;
-  text-align: center;
   padding: 7% 15%;
 }
 .footer-icon{
